@@ -1,0 +1,584 @@
+
+test 01: dropout=None, batch_size=20
+====================
+Epoch 00000: val_loss improved from inf to 0.52196, saving model to saved_models/weights.best.Xception_01.hdf5
+Epoch 00001: val_loss improved from 0.52196 to 0.49386, saving model to saved_models/weights.best.Xception_01.hdf5
+Epoch 00002: val_loss improved from 0.49386 to 0.47992, saving model to saved_models/weights.best.Xception_01.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.0299%
+CPU times: user 31.4 s, sys: 2.58 s, total: 34 s
+Wall time: 17 s
+
+
+test 02: dropout=None, batch_size=20, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.64248, saving model to saved_models/weights.best.Xception_02.hdf5
+Epoch 00001: val_loss did not improve
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 80.0000%
+CPU times: user 1min 12s, sys: 24.1 s, total: 1min 36s
+Wall time: 36.4 s
+
+
+test 03: dropout=None, batch_size=20, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.66247, saving model to saved_models/weights.best.Xception_03.hdf5
+Epoch 00001: val_loss did not improve
+Epoch 00002: val_loss improved from 0.66247 to 0.64601, saving model to saved_models/weights.best.Xception_03.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.4731%
+CPU times: user 1min 22s, sys: 25.7 s, total: 1min 48s
+Wall time: 39.6 s
+
+
+test 04: dropout=None, batch_size=20, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.65300, saving model to saved_models/weights.best.Xception_04.hdf5
+Epoch 00001: val_loss improved from 0.65300 to 0.59746, saving model to saved_models/weights.best.Xception_04.hdf5
+Epoch 00002: val_loss improved from 0.59746 to 0.59111, saving model to saved_models/weights.best.Xception_04.hdf5
+Epoch 00003: val_loss improved from 0.59111 to 0.51868, saving model to saved_models/weights.best.Xception_04.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.8323%
+CPU times: user 1min 5s, sys: 25.5 s, total: 1min 31s
+Wall time: 35.1 s
+
+
+test 05: dropout=None, batch_size=20, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.62402, saving model to saved_models/weights.best.Xception_05.hdf5
+Epoch 00001: val_loss did not improve
+Epoch 00002: val_loss improved from 0.62402 to 0.53052, saving model to saved_models/weights.best.Xception_05.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.4311%
+CPU times: user 1min 17s, sys: 25.9 s, total: 1min 42s
+Wall time: 38.1 s
+
+
+test 06: dropout=0.2, batch_size=20
+====================
+Epoch 00000: val_loss improved from inf to 0.52974, saving model to saved_models/weights.best.Xception_06.hdf5
+Epoch 00001: val_loss improved from 0.52974 to 0.48428, saving model to saved_models/weights.best.Xception_06.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.48428 to 0.47832, saving model to saved_models/weights.best.Xception_06.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 86.1078%
+CPU times: user 33.1 s, sys: 2.2 s, total: 35.3 s
+Wall time: 17.8 s
+
+
+test 07: dropout=0.2, batch_size=20, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.63499, saving model to saved_models/weights.best.Xception_07.hdf5
+Epoch 00001: val_loss did not improve
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 80.1198%
+CPU times: user 1min 10s, sys: 25 s, total: 1min 35s
+Wall time: 36.7 s
+
+
+test 08: dropout=0.2, batch_size=20, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.65535, saving model to saved_models/weights.best.Xception_08.hdf5
+Epoch 00001: val_loss improved from 0.65535 to 0.64091, saving model to saved_models/weights.best.Xception_08.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.64091 to 0.61904, saving model to saved_models/weights.best.Xception_08.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.2335%
+CPU times: user 1min 26s, sys: 26.3 s, total: 1min 52s
+Wall time: 41.4 s
+
+
+test 09: dropout=0.2, batch_size=20, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.76621, saving model to saved_models/weights.best.Xception_09.hdf5
+Epoch 00001: val_loss improved from 0.76621 to 0.54802, saving model to saved_models/weights.best.Xception_09.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.54802 to 0.52670, saving model to saved_models/weights.best.Xception_09.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.3114%
+CPU times: user 1min 8s, sys: 25.2 s, total: 1min 33s
+Wall time: 36.4 s
+
+
+test 10: dropout=0.2, batch_size=20, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.68434, saving model to saved_models/weights.best.Xception_10.hdf5
+Epoch 00001: val_loss improved from 0.68434 to 0.62360, saving model to saved_models/weights.best.Xception_10.hdf5
+Epoch 00002: val_loss improved from 0.62360 to 0.57488, saving model to saved_models/weights.best.Xception_10.hdf5
+Epoch 00003: val_loss improved from 0.57488 to 0.54746, saving model to saved_models/weights.best.Xception_10.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.3533%
+CPU times: user 1min 18s, sys: 25.5 s, total: 1min 44s
+Wall time: 39.5 s
+
+
+test 11: dropout=0.4, batch_size=20
+====================
+Epoch 00000: val_loss improved from inf to 0.54814, saving model to saved_models/weights.best.Xception_11.hdf5
+Epoch 00001: val_loss improved from 0.54814 to 0.47276, saving model to saved_models/weights.best.Xception_11.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.7904%
+CPU times: user 34.3 s, sys: 2.08 s, total: 36.4 s
+Wall time: 18.5 s
+
+
+test 12: dropout=0.4, batch_size=20, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.65504, saving model to saved_models/weights.best.Xception_12.hdf5
+Epoch 00001: val_loss improved from 0.65504 to 0.64055, saving model to saved_models/weights.best.Xception_12.hdf5
+Epoch 00002: val_loss improved from 0.64055 to 0.55460, saving model to saved_models/weights.best.Xception_12.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.1138%
+CPU times: user 1min 17s, sys: 22.7 s, total: 1min 40s
+Wall time: 38.3 s
+
+
+test 13: dropout=0.4, batch_size=20, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.64341, saving model to saved_models/weights.best.Xception_13.hdf5
+Epoch 00001: val_loss improved from 0.64341 to 0.59119, saving model to saved_models/weights.best.Xception_13.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 82.3952%
+CPU times: user 1min 29s, sys: 23.7 s, total: 1min 53s
+Wall time: 41.6 s
+
+
+test 14: dropout=0.4, batch_size=20, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.66740, saving model to saved_models/weights.best.Xception_14.hdf5
+Epoch 00001: val_loss improved from 0.66740 to 0.59432, saving model to saved_models/weights.best.Xception_14.hdf5
+Epoch 00002: val_loss improved from 0.59432 to 0.54880, saving model to saved_models/weights.best.Xception_14.hdf5
+Epoch 00003: val_loss improved from 0.54880 to 0.50022, saving model to saved_models/weights.best.Xception_14.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.7126%
+CPU times: user 1min 8s, sys: 22.6 s, total: 1min 30s
+Wall time: 35.7 s
+
+
+test 15: dropout=0.4, batch_size=20, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.66708, saving model to saved_models/weights.best.Xception_15.hdf5
+Epoch 00001: val_loss improved from 0.66708 to 0.58368, saving model to saved_models/weights.best.Xception_15.hdf5
+Epoch 00002: val_loss improved from 0.58368 to 0.56559, saving model to saved_models/weights.best.Xception_15.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.4731%
+CPU times: user 1min 17s, sys: 23.5 s, total: 1min 41s
+Wall time: 38.6 s
+
+
+test 16: dropout=None, batch_size=40
+====================
+Epoch 00000: val_loss improved from inf to 0.53154, saving model to saved_models/weights.best.Xception_16.hdf5
+Epoch 00001: val_loss improved from 0.53154 to 0.47152, saving model to saved_models/weights.best.Xception_16.hdf5
+Epoch 00002: val_loss improved from 0.47152 to 0.46744, saving model to saved_models/weights.best.Xception_16.hdf5
+Epoch 00003: val_loss improved from 0.46744 to 0.46230, saving model to saved_models/weights.best.Xception_16.hdf5
+Epoch 00004: val_loss improved from 0.46230 to 0.45312, saving model to saved_models/weights.best.Xception_16.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.7485%
+CPU times: user 29.4 s, sys: 908 ms, total: 30.3 s
+Wall time: 16.9 s
+
+
+test 17: dropout=None, batch_size=40, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.62207, saving model to saved_models/weights.best.Xception_17.hdf5
+Epoch 00001: val_loss did not improve
+Epoch 00002: val_loss improved from 0.62207 to 0.61224, saving model to saved_models/weights.best.Xception_17.hdf5
+Epoch 00003: val_loss improved from 0.61224 to 0.60587, saving model to saved_models/weights.best.Xception_17.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 82.8743%
+CPU times: user 52.6 s, sys: 10.9 s, total: 1min 3s
+Wall time: 26.7 s
+
+
+test 18: dropout=None, batch_size=40, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.69441, saving model to saved_models/weights.best.Xception_18.hdf5
+Epoch 00001: val_loss improved from 0.69441 to 0.61370, saving model to saved_models/weights.best.Xception_18.hdf5
+Epoch 00002: val_loss improved from 0.61370 to 0.52914, saving model to saved_models/weights.best.Xception_18.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.3892%
+CPU times: user 1min, sys: 9.81 s, total: 1min 10s
+Wall time: 28.4 s
+
+
+test 19: dropout=None, batch_size=40, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.60005, saving model to saved_models/weights.best.Xception_19.hdf5
+Epoch 00001: val_loss improved from 0.60005 to 0.54302, saving model to saved_models/weights.best.Xception_19.hdf5
+Epoch 00002: val_loss improved from 0.54302 to 0.51607, saving model to saved_models/weights.best.Xception_19.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.4731%
+CPU times: user 52.5 s, sys: 9.31 s, total: 1min 1s
+Wall time: 26.3 s
+
+
+test 20: dropout=None, batch_size=40, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.70798, saving model to saved_models/weights.best.Xception_20.hdf5
+Epoch 00001: val_loss improved from 0.70798 to 0.59653, saving model to saved_models/weights.best.Xception_20.hdf5
+Epoch 00002: val_loss improved from 0.59653 to 0.58534, saving model to saved_models/weights.best.Xception_20.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss improved from 0.58534 to 0.55475, saving model to saved_models/weights.best.Xception_20.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.4311%
+CPU times: user 59.8 s, sys: 9.13 s, total: 1min 8s
+Wall time: 28 s
+
+
+test 21: dropout=0.2, batch_size=40
+====================
+Epoch 00000: val_loss improved from inf to 0.55517, saving model to saved_models/weights.best.Xception_21.hdf5
+Epoch 00001: val_loss improved from 0.55517 to 0.47067, saving model to saved_models/weights.best.Xception_21.hdf5
+Epoch 00002: val_loss improved from 0.47067 to 0.46732, saving model to saved_models/weights.best.Xception_21.hdf5
+Epoch 00003: val_loss improved from 0.46732 to 0.45987, saving model to saved_models/weights.best.Xception_21.hdf5
+Epoch 00004: val_loss improved from 0.45987 to 0.44538, saving model to saved_models/weights.best.Xception_21.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 86.1078%
+CPU times: user 31.3 s, sys: 864 ms, total: 32.2 s
+Wall time: 17.9 s
+
+
+test 22: dropout=0.2, batch_size=40, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.60738, saving model to saved_models/weights.best.Xception_22.hdf5
+Epoch 00001: val_loss improved from 0.60738 to 0.55986, saving model to saved_models/weights.best.Xception_22.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 82.1557%
+CPU times: user 52.8 s, sys: 8.72 s, total: 1min 1s
+Wall time: 26.4 s
+
+
+test 23: dropout=0.2, batch_size=40, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.60924, saving model to saved_models/weights.best.Xception_23.hdf5
+Epoch 00001: val_loss improved from 0.60924 to 0.58416, saving model to saved_models/weights.best.Xception_23.hdf5
+Epoch 00002: val_loss improved from 0.58416 to 0.55369, saving model to saved_models/weights.best.Xception_23.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.2335%
+CPU times: user 1min 1s, sys: 8.22 s, total: 1min 9s
+Wall time: 28.8 s
+
+
+test 24: dropout=0.2, batch_size=40, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.64906, saving model to saved_models/weights.best.Xception_24.hdf5
+Epoch 00001: val_loss improved from 0.64906 to 0.51894, saving model to saved_models/weights.best.Xception_24.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss improved from 0.51894 to 0.50386, saving model to saved_models/weights.best.Xception_24.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 82.6347%
+CPU times: user 52.8 s, sys: 7.32 s, total: 1min
+Wall time: 26.3 s
+
+
+test 25: dropout=0.2, batch_size=40, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.66032, saving model to saved_models/weights.best.Xception_25.hdf5
+Epoch 00001: val_loss improved from 0.66032 to 0.55651, saving model to saved_models/weights.best.Xception_25.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.55651 to 0.52857, saving model to saved_models/weights.best.Xception_25.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 82.6347%
+CPU times: user 1min 1s, sys: 6.43 s, total: 1min 7s
+Wall time: 28.5 s
+
+
+test 26: dropout=0.4, batch_size=40
+====================
+Epoch 00000: val_loss improved from inf to 0.53875, saving model to saved_models/weights.best.Xception_26.hdf5
+Epoch 00001: val_loss improved from 0.53875 to 0.47922, saving model to saved_models/weights.best.Xception_26.hdf5
+Epoch 00002: val_loss improved from 0.47922 to 0.45258, saving model to saved_models/weights.best.Xception_26.hdf5
+Epoch 00003: val_loss improved from 0.45258 to 0.45084, saving model to saved_models/weights.best.Xception_26.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.5090%
+CPU times: user 32.2 s, sys: 836 ms, total: 33.1 s
+Wall time: 18.7 s
+
+
+test 27: dropout=0.4, batch_size=40, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.66609, saving model to saved_models/weights.best.Xception_27.hdf5
+Epoch 00001: val_loss improved from 0.66609 to 0.53778, saving model to saved_models/weights.best.Xception_27.hdf5
+Epoch 00002: val_loss improved from 0.53778 to 0.51219, saving model to saved_models/weights.best.Xception_27.hdf5
+Epoch 00003: val_loss improved from 0.51219 to 0.49548, saving model to saved_models/weights.best.Xception_27.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.3114%
+CPU times: user 53.9 s, sys: 6.96 s, total: 1min
+Wall time: 26.6 s
+
+
+test 28: dropout=0.4, batch_size=40, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.61041, saving model to saved_models/weights.best.Xception_28.hdf5
+Epoch 00001: val_loss improved from 0.61041 to 0.58337, saving model to saved_models/weights.best.Xception_28.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.58337 to 0.56867, saving model to saved_models/weights.best.Xception_28.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 82.7545%
+CPU times: user 1min 2s, sys: 6.44 s, total: 1min 8s
+Wall time: 28.6 s
+
+
+test 29: dropout=0.4, batch_size=40, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.66006, saving model to saved_models/weights.best.Xception_29.hdf5
+Epoch 00001: val_loss improved from 0.66006 to 0.55578, saving model to saved_models/weights.best.Xception_29.hdf5
+Epoch 00002: val_loss improved from 0.55578 to 0.55002, saving model to saved_models/weights.best.Xception_29.hdf5
+Epoch 00003: val_loss improved from 0.55002 to 0.49873, saving model to saved_models/weights.best.Xception_29.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.3533%
+CPU times: user 53.1 s, sys: 6.02 s, total: 59.1 s
+Wall time: 26.2 s
+
+
+test 30: dropout=0.4, batch_size=40, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.64922, saving model to saved_models/weights.best.Xception_30.hdf5
+Epoch 00001: val_loss improved from 0.64922 to 0.57382, saving model to saved_models/weights.best.Xception_30.hdf5
+Epoch 00002: val_loss improved from 0.57382 to 0.54808, saving model to saved_models/weights.best.Xception_30.hdf5
+Epoch 00003: val_loss improved from 0.54808 to 0.54200, saving model to saved_models/weights.best.Xception_30.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.8323%
+CPU times: user 1min 1s, sys: 5.82 s, total: 1min 7s
+Wall time: 28.5 s
+
+
+test 31: dropout=None, batch_size=60
+====================
+Epoch 00000: val_loss improved from inf to 0.58952, saving model to saved_models/weights.best.Xception_31.hdf5
+Epoch 00001: val_loss improved from 0.58952 to 0.49585, saving model to saved_models/weights.best.Xception_31.hdf5
+Epoch 00002: val_loss improved from 0.49585 to 0.45186, saving model to saved_models/weights.best.Xception_31.hdf5
+Epoch 00003: val_loss improved from 0.45186 to 0.45139, saving model to saved_models/weights.best.Xception_31.hdf5
+Epoch 00004: val_loss improved from 0.45139 to 0.43276, saving model to saved_models/weights.best.Xception_31.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 86.5868%
+CPU times: user 30.3 s, sys: 392 ms, total: 30.7 s
+Wall time: 17.7 s
+
+
+test 32: dropout=None, batch_size=60, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.80697, saving model to saved_models/weights.best.Xception_32.hdf5
+Epoch 00001: val_loss improved from 0.80697 to 0.63238, saving model to saved_models/weights.best.Xception_32.hdf5
+Epoch 00002: val_loss improved from 0.63238 to 0.59881, saving model to saved_models/weights.best.Xception_32.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss improved from 0.59881 to 0.56756, saving model to saved_models/weights.best.Xception_32.hdf5
+Validation accuracy: 84.4311%
+CPU times: user 48.5 s, sys: 4.08 s, total: 52.6 s
+Wall time: 23.9 s
+
+
+test 33: dropout=None, batch_size=60, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.89793, saving model to saved_models/weights.best.Xception_33.hdf5
+Epoch 00001: val_loss improved from 0.89793 to 0.68555, saving model to saved_models/weights.best.Xception_33.hdf5
+Epoch 00002: val_loss improved from 0.68555 to 0.61741, saving model to saved_models/weights.best.Xception_33.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 81.0778%
+CPU times: user 55.1 s, sys: 3.85 s, total: 59 s
+Wall time: 25.3 s
+
+
+test 34: dropout=None, batch_size=60, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.71450, saving model to saved_models/weights.best.Xception_34.hdf5
+Epoch 00001: val_loss improved from 0.71450 to 0.56502, saving model to saved_models/weights.best.Xception_34.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.56502 to 0.53197, saving model to saved_models/weights.best.Xception_34.hdf5
+Epoch 00004: val_loss improved from 0.53197 to 0.52428, saving model to saved_models/weights.best.Xception_34.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.1916%
+CPU times: user 48.4 s, sys: 3.79 s, total: 52.2 s
+Wall time: 23.8 s
+
+
+test 35: dropout=None, batch_size=60, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.73133, saving model to saved_models/weights.best.Xception_35.hdf5
+Epoch 00001: val_loss improved from 0.73133 to 0.63041, saving model to saved_models/weights.best.Xception_35.hdf5
+Epoch 00002: val_loss improved from 0.63041 to 0.62079, saving model to saved_models/weights.best.Xception_35.hdf5
+Epoch 00003: val_loss improved from 0.62079 to 0.61349, saving model to saved_models/weights.best.Xception_35.hdf5
+Epoch 00004: val_loss improved from 0.61349 to 0.60851, saving model to saved_models/weights.best.Xception_35.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 81.3174%
+CPU times: user 56.4 s, sys: 3.29 s, total: 59.7 s
+Wall time: 25.8 s
+
+
+test 36: dropout=0.2, batch_size=60
+====================
+Epoch 00000: val_loss improved from inf to 0.59491, saving model to saved_models/weights.best.Xception_36.hdf5
+Epoch 00001: val_loss improved from 0.59491 to 0.49089, saving model to saved_models/weights.best.Xception_36.hdf5
+Epoch 00002: val_loss improved from 0.49089 to 0.46233, saving model to saved_models/weights.best.Xception_36.hdf5
+Epoch 00003: val_loss improved from 0.46233 to 0.46180, saving model to saved_models/weights.best.Xception_36.hdf5
+Epoch 00004: val_loss improved from 0.46180 to 0.44638, saving model to saved_models/weights.best.Xception_36.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.3892%
+CPU times: user 32.2 s, sys: 632 ms, total: 32.9 s
+Wall time: 18.6 s
+
+
+test 37: dropout=0.2, batch_size=60, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.69777, saving model to saved_models/weights.best.Xception_37.hdf5
+Epoch 00001: val_loss improved from 0.69777 to 0.66130, saving model to saved_models/weights.best.Xception_37.hdf5
+Epoch 00002: val_loss improved from 0.66130 to 0.60367, saving model to saved_models/weights.best.Xception_37.hdf5
+Epoch 00003: val_loss improved from 0.60367 to 0.54622, saving model to saved_models/weights.best.Xception_37.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.1138%
+CPU times: user 49.6 s, sys: 3.37 s, total: 53 s
+Wall time: 24.6 s
+
+
+test 38: dropout=0.2, batch_size=60, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.74855, saving model to saved_models/weights.best.Xception_38.hdf5
+Epoch 00001: val_loss improved from 0.74855 to 0.58968, saving model to saved_models/weights.best.Xception_38.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.58968 to 0.53906, saving model to saved_models/weights.best.Xception_38.hdf5
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.4311%
+CPU times: user 56.6 s, sys: 3.23 s, total: 59.8 s
+Wall time: 26 s
+
+
+test 39: dropout=0.2, batch_size=60, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.72035, saving model to saved_models/weights.best.Xception_39.hdf5
+Epoch 00001: val_loss improved from 0.72035 to 0.58249, saving model to saved_models/weights.best.Xception_39.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.58249 to 0.56393, saving model to saved_models/weights.best.Xception_39.hdf5
+Epoch 00004: val_loss improved from 0.56393 to 0.56034, saving model to saved_models/weights.best.Xception_39.hdf5
+Epoch 00005: val_loss improved from 0.56034 to 0.52898, saving model to saved_models/weights.best.Xception_39.hdf5
+Validation accuracy: 84.4311%
+CPU times: user 49.4 s, sys: 2.83 s, total: 52.2 s
+Wall time: 24.3 s
+
+
+test 40: dropout=0.2, batch_size=60, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.75677, saving model to saved_models/weights.best.Xception_40.hdf5
+Epoch 00001: val_loss improved from 0.75677 to 0.59204, saving model to saved_models/weights.best.Xception_40.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.59204 to 0.54363, saving model to saved_models/weights.best.Xception_40.hdf5
+Epoch 00004: val_loss improved from 0.54363 to 0.53215, saving model to saved_models/weights.best.Xception_40.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.3533%
+CPU times: user 56.6 s, sys: 2.89 s, total: 59.5 s
+Wall time: 26.1 s
+
+
+test 41: dropout=0.4, batch_size=60
+====================
+Epoch 00000: val_loss improved from inf to 0.62097, saving model to saved_models/weights.best.Xception_41.hdf5
+Epoch 00001: val_loss improved from 0.62097 to 0.50380, saving model to saved_models/weights.best.Xception_41.hdf5
+Epoch 00002: val_loss improved from 0.50380 to 0.45586, saving model to saved_models/weights.best.Xception_41.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss improved from 0.45586 to 0.44023, saving model to saved_models/weights.best.Xception_41.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.9880%
+CPU times: user 32.6 s, sys: 528 ms, total: 33.1 s
+Wall time: 18.8 s
+
+
+test 42: dropout=0.4, batch_size=60, additional layer=(nodes=400, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.67620, saving model to saved_models/weights.best.Xception_42.hdf5
+Epoch 00001: val_loss improved from 0.67620 to 0.56356, saving model to saved_models/weights.best.Xception_42.hdf5
+Epoch 00002: val_loss improved from 0.56356 to 0.52561, saving model to saved_models/weights.best.Xception_42.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss improved from 0.52561 to 0.48800, saving model to saved_models/weights.best.Xception_42.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 84.5509%
+CPU times: user 49.5 s, sys: 2.33 s, total: 51.8 s
+Wall time: 24.3 s
+
+
+test 43: dropout=0.4, batch_size=60, additional layer=(nodes=500, activation=relu)
+====================
+Epoch 00000: val_loss improved from inf to 0.75790, saving model to saved_models/weights.best.Xception_43.hdf5
+Epoch 00001: val_loss improved from 0.75790 to 0.64760, saving model to saved_models/weights.best.Xception_43.hdf5
+Epoch 00002: val_loss did not improve
+Epoch 00003: val_loss improved from 0.64760 to 0.53121, saving model to saved_models/weights.best.Xception_43.hdf5
+Epoch 00004: val_loss improved from 0.53121 to 0.49472, saving model to saved_models/weights.best.Xception_43.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 85.1497%
+CPU times: user 56.8 s, sys: 2.24 s, total: 59.1 s
+Wall time: 26.1 s
+
+
+test 44: dropout=0.4, batch_size=60, additional layer=(nodes=400, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.69720, saving model to saved_models/weights.best.Xception_44.hdf5
+Epoch 00001: val_loss improved from 0.69720 to 0.56597, saving model to saved_models/weights.best.Xception_44.hdf5
+Epoch 00002: val_loss improved from 0.56597 to 0.51690, saving model to saved_models/weights.best.Xception_44.hdf5
+Epoch 00003: val_loss did not improve
+Epoch 00004: val_loss did not improve
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.5928%
+CPU times: user 49.3 s, sys: 1.4 s, total: 50.7 s
+Wall time: 24.1 s
+
+
+test 45: dropout=0.4, batch_size=60, additional layer=(nodes=500, activation=tanh)
+====================
+Epoch 00000: val_loss improved from inf to 0.73074, saving model to saved_models/weights.best.Xception_45.hdf5
+Epoch 00001: val_loss improved from 0.73074 to 0.61629, saving model to saved_models/weights.best.Xception_45.hdf5
+Epoch 00002: val_loss improved from 0.61629 to 0.60256, saving model to saved_models/weights.best.Xception_45.hdf5
+Epoch 00003: val_loss improved from 0.60256 to 0.57173, saving model to saved_models/weights.best.Xception_45.hdf5
+Epoch 00004: val_loss improved from 0.57173 to 0.54324, saving model to saved_models/weights.best.Xception_45.hdf5
+Epoch 00005: val_loss did not improve
+Validation accuracy: 83.5928%
+CPU times: user 56.4 s, sys: 1.92 s, total: 58.3 s
+Wall time: 26.1 s
