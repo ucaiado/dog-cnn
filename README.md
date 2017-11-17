@@ -16,23 +16,19 @@ Along with exploring state-of-the-art Convolutional Neural Networks (CNN) models
 
 ### Install
 This project requires **Python 3.4** or higher and the following Python libraries installed:
-- [Unittest](https://docs.python.org/2/library/unittest.html)
-- [...](a)
-
-
-### Run
-In a terminal or command window, navigate to the top-level project directory `dog-cnn/` (that contains this README) and run the following command:
-
-```shell
-$ python -m aind.foo
-```
-
-### Data
-...
-
+- [Matplotlib](http://matplotlib.org/)
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org)
+- [Seaborn](https://web.stanford.edu/~mwaskom/software/seaborn/)
+- [H5py](https://pypi.python.org/pypi/h5py)
+- [Keras](https://keras.io)
+- [Scikit-learn](http://scikit-learn.org/stable/)
+- [Scipy](https://www.scipy.org)
+- [Tensorflow](https://www.tensorflow.org)
 
 ### References
-1. ...
+1. [More on CNNs & Handling Overfitting](https://towardsdatascience.com/deep-learning-3-more-on-cnns-handling-overfitting-2bd5d99abe5d)
+2. [Original code repository](https://github.com/udacity/dog-project)
 
 
 ### License
